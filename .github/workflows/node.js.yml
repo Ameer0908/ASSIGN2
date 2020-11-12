@@ -32,6 +32,6 @@ jobs:
       working-directory: my-app
     - run: npm test -- --coverage
       working-directory: my-app
-      -run : bash <(curl -s https://codecov.io/bash)
+    - run : bash <(curl -s https://codecov.io/bash)
 
 
